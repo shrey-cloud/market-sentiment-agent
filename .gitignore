@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and editor files
+.env
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Dataset (CC BY-NC-SA 3.0, not committed; see README)
+financial_phrasebank.csv
+FinancialPhraseBank-v1.0/
+*.csv
+
+# Course documents
+*.docx
+*.pptx
